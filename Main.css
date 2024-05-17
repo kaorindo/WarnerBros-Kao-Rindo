@@ -1,0 +1,178 @@
+.bg-image {
+    height: 180vh;
+    width: 100vw;
+    background-attachment: fixed;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+ }
+
+ body {
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+ }
+
+ .nav-link:hover {
+text-decoration: underline;
+color: white;
+font-weight: bold;
+text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+ }
+
+ 
+#hp-WWB, #hp-wp{
+   color: white;
+   text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+ #hp-WWB{
+   padding-top: 5%;
+text-align: center;
+font-size: 30pt;
+font-weight: bold;
+color: beige;
+ }
+ #hp-wp{
+   text-align: center;
+   padding:0 10% 5% 20% ;
+   font-weight: bold;
+   font-size: 12pt;
+   color: beige;
+   
+ }
+ #hp-social{
+   text-align: center;
+   color: white;
+   margin-bottom: 20px;
+ }
+ #HP-Video{
+   display: flex;
+   justify-content: center;
+   padding: 10%;
+   padding-left: 12%;
+ }
+
+ .homepage-slides{
+   font-size: 35PX;
+   font-weight: bold;
+   color: white;
+   text-shadow: 0px 0 8px white;
+   padding-top: 5%;
+padding-bottom: 2.5%;
+}
+
+.Latestmovie-heading{
+   font-size: 40PX;
+   font-weight: bold;
+   color: white;
+   padding-top: 2.5%;
+padding-bottom: 2.5%;
+   text-shadow: 0px 0 8px white;
+   text-align: left;
+   padding-left: 2.5%;
+}
+
+.card{
+   margin: 0.5em;
+   box-shadow:  0px 0 10px white;
+}
+
+/* Homepage footer */
+
+.socialIcons{
+   display: flex;
+   justify-content: center;
+}
+.socialIcons a{
+   text-decoration: none;
+   padding: 12px;
+   background-color: white;
+   margin: 25px;
+   border-radius: 50%;
+}
+.socialIcons a i{
+   color: black;
+   opacity: 0.9;
+}
+
+.socialIcons a:hover{
+background-color: black;
+transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+   color: white;
+   transition: 0.5s;
+}
+.footerNav{
+   margin: 10px 0;
+}
+
+.footerNav ul{
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+}
+
+.footerNav ul li a{
+color: white;
+margin: 21px;
+text-decoration: none;
+}
+
+.footerNav ul li a:hover{
+text-decoration: underline;
+}
+
+
+/*Nav page for 2,3 4*/
+
+.navdiv{
+   color: white;
+}
+.Navlist{
+   list-style: none;
+   display: inline-block;
+   padding: 2.5% 1% 0 1%;
+}
+
+.Navlist a{
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   text-decoration: none;
+   border: 2px solid;
+   border-radius: 0px 0px 0px 0px;
+   border-color: white;
+   padding: 5px 15px 5px 15px;
+   box-shadow:  0px 0 10px white;
+}
+
+.Navlist a:hover{
+   background-color: red;
+   color: white;
+   font-size: 18px;
+}
+
+/*Feedback form*/
+#feedback-header{
+   font-weight: bold;
+   text-align: center;
+   font-size: 40px;
+   color: white;
+}
+.container{
+   color: white;
+}
+.form-with-border{
+   border-style: solid;
+   border-width: 5px;
+   border-radius: 25px;
+   border-color: white;
+   margin-top: 10px;
+   margin-right: 10%;
+   margin-left: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
